@@ -161,10 +161,6 @@ table {
     overflow: hidden;
 }
 
-.grey {
-    color: #9B9B9B
-}
-
 .text-overflow {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -195,7 +191,7 @@ table {
     justify-content: center;
 }
 
-.align_center {
+.column_center {
     display: flex;
     align-items: center;
 }

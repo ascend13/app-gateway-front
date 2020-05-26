@@ -1,0 +1,30 @@
+@mixin text_overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@mixin text_overflow2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin column_center {
+    display: flex;
+    align-items: center;
+}
+
+@mixin vflex {
+    display: flex;
+    flex-direction: column;
+}
